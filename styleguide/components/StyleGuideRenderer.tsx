@@ -120,11 +120,22 @@ function NavBar({
           <Logo>{title}</Logo>
         </a>
         <nav className={classes.nav}>
+          <a className={classes.headerLink} href="https://www.patternfly.org/v4/guidelines/">
+            <img
+              src="https://raw.githubusercontent.com/kubevirt-ui/kubevirt-components/main/images/GitHub-Mark-32px.png"
+              alt="github logo"
+            />
+            PatternFly 4
+          </a>
           <a
             className={classes.headerLink}
             href="https://github.com/kubevirt-ui/kubevirt-components"
           >
-            GitHub
+            <img
+              src="https://raw.githubusercontent.com/kubevirt-ui/kubevirt-components/main/images/GitHub-Mark-32px.png"
+              alt="github logo"
+            />
+            KubeVirt UI
           </a>
         </nav>
       </div>
